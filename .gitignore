@@ -166,5 +166,16 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+#Ignore Magenta
+WAVENET_MAGENTA/**
+!WAVENET_MAGENTA/magenta
+
+WAVENET_MAGENTA/magenta/**
+!WAVENET_MAGENTA/magenta/models
+
+WAVENET_MAGENTA/magenta/models/**
+!WAVENET_MAGENTA/magenta/models/nsynth
+
+
 
 # End of https://www.gitignore.io/api/python,pycharm
